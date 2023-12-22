@@ -13,6 +13,11 @@ var like2 = false;
 var heart2 = false;
 var sad2 = false;
 var angry2 = false;
+var reacted3 = false;
+var like3 = false;
+var heart3 = false;
+var sad3 = false;
+var angry3 = false;
 
 function react(react) {
     switch (react.value) {
@@ -408,6 +413,139 @@ function react2(react) {
                 sad2 = false;
                 angry2 = false;
                 reacted2 = false;
+            }
+            break;
+    }
+}
+
+function react3(react) {
+    switch (react.value) {
+        case 'like':
+            if (reacted3 == false && like3 == false || reacted3 == true && like3 == false) {
+                document.getElementById('react3').style.display = 'none';
+                document.getElementById('reacted3').style.display = 'block';
+                document.getElementById('reactH3').style.display = 'block';
+                document.getElementById('reactedH3').style.display = 'none';
+                document.getElementById('reactS3').style.display = 'block';
+                document.getElementById('reactedS3').style.display = 'none';
+                document.getElementById('reactA3').style.display = 'block';
+                document.getElementById('reactedA3').style.display = 'none';
+                like3 = true;
+                heart3 = false;
+                sad3 = false;
+                angry3 = false;
+                reacted3 = true;
+            }
+            else {
+                document.getElementById('react3').style.display = 'block';
+                document.getElementById('reacted3').style.display = 'none';
+                document.getElementById('reactH3').style.display = 'block';
+                document.getElementById('reactedH3').style.display = 'none';
+                document.getElementById('reactS3').style.display = 'block';
+                document.getElementById('reactedS3').style.display = 'none';
+                document.getElementById('reactA3').style.display = 'block';
+                document.getElementById('reactedA3').style.display = 'none';
+                like3 = false;
+                heart3 = false;
+                sad3 = false;
+                angry3 = false;
+                reacted3 = false;
+            }
+            break;
+        case 'heart':
+            if (reacted3 == false && heart3 == false || reacted3 == true && heart3 == false) {
+                document.getElementById('react3').style.display = 'block';
+                document.getElementById('reacted3').style.display = 'none';
+                document.getElementById('reactH3').style.display = 'none';
+                document.getElementById('reactedH3').style.display = 'block';
+                document.getElementById('reactS3').style.display = 'block';
+                document.getElementById('reactedS3').style.display = 'none';
+                document.getElementById('reactA3').style.display = 'block';
+                document.getElementById('reactedA3').style.display = 'none';
+                like3 = false;
+                heart3 = true;
+                sad3 = false;
+                angry3 = false;
+                reacted3 = true;
+            }
+            else {
+                document.getElementById('react3').style.display = 'block';
+                document.getElementById('reacted3').style.display = 'none';
+                document.getElementById('reactH3').style.display = 'block';
+                document.getElementById('reactedH3').style.display = 'none';
+                document.getElementById('reactS3').style.display = 'block';
+                document.getElementById('reactedS3').style.display = 'none';
+                document.getElementById('reactA3').style.display = 'block';
+                document.getElementById('reactedA3').style.display = 'none';
+                like3 = false;
+                heart3 = false;
+                sad3 = false;
+                angry3 = false;
+                reacted3 = false;
+            }
+            break;
+        case 'sad':
+            if (reacted3 == false && sad3 == false || reacted3 == true && sad3 == false) {
+                document.getElementById('react3').style.display = 'block';
+                document.getElementById('reacted3').style.display = 'none';
+                document.getElementById('reactH3').style.display = 'block';
+                document.getElementById('reactedH3').style.display = 'none';
+                document.getElementById('reactS3').style.display = 'none';
+                document.getElementById('reactedS3').style.display = 'block';
+                document.getElementById('reactA3').style.display = 'block';
+                document.getElementById('reactedA3').style.display = 'none';
+                like3 = false;
+                heart3 = false;
+                sad3 = true;
+                angry3 = false;
+                reacted3 = true;
+            }
+            else {
+                document.getElementById('react3').style.display = 'block';
+                document.getElementById('reacted3').style.display = 'none';
+                document.getElementById('reactH3').style.display = 'block';
+                document.getElementById('reactedH3').style.display = 'none';
+                document.getElementById('reactS3').style.display = 'block';
+                document.getElementById('reactedS3').style.display = 'none';
+                document.getElementById('reactA3').style.display = 'block';
+                document.getElementById('reactedA3').style.display = 'none';
+                like3 = false;
+                heart3 = false;
+                sad3 = false;
+                angry3 = false;
+                reacted3 = false;
+            }
+            break;
+        case 'angry':
+            if (reacted3 == false && angry3 == false || reacted3 == true && angry3 == false) {
+                document.getElementById('react3').style.display = 'block';
+                document.getElementById('reacted3').style.display = 'none';
+                document.getElementById('reactH3').style.display = 'block';
+                document.getElementById('reactedH3').style.display = 'none';
+                document.getElementById('reactS3').style.display = 'block';
+                document.getElementById('reactedS3').style.display = 'none';
+                document.getElementById('reactA3').style.display = 'none';
+                document.getElementById('reactedA3').style.display = 'block';
+                like3 = false;
+                heart3 = false;
+                sad3 = false;
+                angry3 = true;
+                reacted3 = true;
+            }
+            else {
+                document.getElementById('react3').style.display = 'block';
+                document.getElementById('reacted3').style.display = 'none';
+                document.getElementById('reactH3').style.display = 'block';
+                document.getElementById('reactedH3').style.display = 'none';
+                document.getElementById('reactS3').style.display = 'block';
+                document.getElementById('reactedS3').style.display = 'none';
+                document.getElementById('reactA3').style.display = 'block';
+                document.getElementById('reactedA3').style.display = 'none';
+                like3 = false;
+                heart3 = false;
+                sad3 = false;
+                angry3 = false;
+                reacted3 = false;
             }
             break;
     }
