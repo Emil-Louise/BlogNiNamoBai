@@ -150,7 +150,7 @@ function react(react) {
 function react1(react) {
     switch (react.value) {
         case 'like':
-            if (reacted == false && like == false || reacted == true && like == false) {
+            if (reacted1 == false && like1 == false || reacted1 == true && like1 == false) {
                 document.getElementById('react1').style.display = 'none';
                 document.getElementById('reacted1').style.display = 'block';
                 document.getElementById('reactH1').style.display = 'block';
@@ -159,11 +159,11 @@ function react1(react) {
                 document.getElementById('reactedS1').style.display = 'none';
                 document.getElementById('reactA1').style.display = 'block';
                 document.getElementById('reactedA1').style.display = 'none';
-                like = true;
-                heart = false;
-                sad = false;
-                angry = false;
-                reacted = true;
+                like1 = true;
+                heart1 = false;
+                sad1 = false;
+                angry1 = false;
+                reacted1 = true;
             }
             else {
                 document.getElementById('react1').style.display = 'block';
@@ -174,15 +174,15 @@ function react1(react) {
                 document.getElementById('reactedS1').style.display = 'none';
                 document.getElementById('reactA1').style.display = 'block';
                 document.getElementById('reactedA1').style.display = 'none';
-                like = false;
-                heart = false;
-                sad = false;
-                angry = false;
-                reacted = false;
+                like1 = false;
+                heart1 = false;
+                sad1 = false;
+                angry1 = false;
+                reacted1 = false;
             }
             break;
         case 'heart':
-            if (reacted == false && heart == false || reacted == true && heart == false) {
+            if (reacted1 == false && heart1 == false || reacted1 == true && heart1 == false) {
                 document.getElementById('react1').style.display = 'block';
                 document.getElementById('reacted1').style.display = 'none';
                 document.getElementById('reactH1').style.display = 'none';
@@ -191,11 +191,11 @@ function react1(react) {
                 document.getElementById('reactedS1').style.display = 'none';
                 document.getElementById('reactA1').style.display = 'block';
                 document.getElementById('reactedA1').style.display = 'none';
-                like = false;
-                heart = true;
-                sad = false;
-                angry = false;
-                reacted = true;
+                like1 = false;
+                heart1 = true;
+                sad1 = false;
+                angry1 = false;
+                reacted1 = true;
             }
             else {
                 document.getElementById('react1').style.display = 'block';
@@ -206,15 +206,15 @@ function react1(react) {
                 document.getElementById('reactedS1').style.display = 'none';
                 document.getElementById('reactA1').style.display = 'block';
                 document.getElementById('reactedA1').style.display = 'none';
-                like = false;
-                heart = false;
-                sad = false;
-                angry = false;
-                reacted = false;
+                like1 = false;
+                heart1 = false;
+                sad1 = false;
+                angry1 = false;
+                reacted1 = false;
             }
             break;
         case 'sad':
-            if (reacted == false && sad == false || reacted == true && sad == false) {
+            if (reacted1 == false && sad1 == false || reacted1 == true && sad1 == false) {
                 document.getElementById('react1').style.display = 'block';
                 document.getElementById('reacted1').style.display = 'none';
                 document.getElementById('reactH1').style.display = 'block';
@@ -223,11 +223,11 @@ function react1(react) {
                 document.getElementById('reactedS1').style.display = 'block';
                 document.getElementById('reactA1').style.display = 'block';
                 document.getElementById('reactedA1').style.display = 'none';
-                like = false;
-                heart = false;
-                sad = true;
-                angry = false;
-                reacted = true;
+                like1 = false;
+                heart1 = false;
+                sad1 = true;
+                angry1 = false;
+                reacted1 = true;
             }
             else {
                 document.getElementById('react1').style.display = 'block';
@@ -238,15 +238,15 @@ function react1(react) {
                 document.getElementById('reactedS1').style.display = 'none';
                 document.getElementById('reactA1').style.display = 'block';
                 document.getElementById('reactedA1').style.display = 'none';
-                like = false;
-                heart = false;
-                sad = false;
-                angry = false;
-                reacted = false;
+                like1 = false;
+                heart1 = false;
+                sad1 = false;
+                angry1 = false;
+                reacted1 = false;
             }
             break;
         case 'angry':
-            if (reacted == false && angry == false || reacted == true && angry == false) {
+            if (reacted1 == false && angry1 == false || reacted1 == true && angry1 == false) {
                 document.getElementById('react1').style.display = 'block';
                 document.getElementById('reacted1').style.display = 'none';
                 document.getElementById('reactH1').style.display = 'block';
@@ -255,11 +255,11 @@ function react1(react) {
                 document.getElementById('reactedS1').style.display = 'none';
                 document.getElementById('reactA1').style.display = 'none';
                 document.getElementById('reactedA1').style.display = 'block';
-                like = false;
-                heart = false;
-                sad = false;
-                angry = true;
-                reacted = true;
+                like1 = false;
+                heart1 = false;
+                sad1 = false;
+                angry1 = true;
+                reacted1 = true;
             }
             else {
                 document.getElementById('react1').style.display = 'block';
@@ -270,11 +270,11 @@ function react1(react) {
                 document.getElementById('reactedS1').style.display = 'none';
                 document.getElementById('reactA1').style.display = 'block';
                 document.getElementById('reactedA1').style.display = 'none';
-                like = false;
-                heart = false;
-                sad = false;
-                angry = false;
-                reacted = false;
+                like1 = false;
+                heart1 = false;
+                sad1 = false;
+                angry1 = false;
+                reacted1 = false;
             }
             break;
     }
@@ -283,7 +283,7 @@ function react1(react) {
 function react2(react) {
     switch (react.value) {
         case 'like':
-            if (reacted == false && like == false || reacted == true && like == false) {
+            if (reacted2 == false && like2 == false || reacted2 == true && like2 == false) {
                 document.getElementById('react2').style.display = 'none';
                 document.getElementById('reacted2').style.display = 'block';
                 document.getElementById('reactH2').style.display = 'block';
@@ -315,7 +315,7 @@ function react2(react) {
             }
             break;
         case 'heart':
-            if (reacted == false && heart == false || reacted == true && heart == false) {
+            if (reacted2 == false && heart2 == false || reacted2 == true && heart2 == false) {
                 document.getElementById('react2').style.display = 'block';
                 document.getElementById('reacted2').style.display = 'none';
                 document.getElementById('reactH2').style.display = 'none';
@@ -347,7 +347,7 @@ function react2(react) {
             }
             break;
         case 'sad':
-            if (reacted == false && sad == false || reacted == true && sad == false) {
+            if (reacted2 == false && sad2 == false || reacted2 == true && sad2 == false) {
                 document.getElementById('react2').style.display = 'block';
                 document.getElementById('reacted2').style.display = 'none';
                 document.getElementById('reactH2').style.display = 'block';
@@ -379,7 +379,7 @@ function react2(react) {
             }
             break;
         case 'angry':
-            if (reacted == false && angry == false || reacted == true && angry == false) {
+            if (reacted2 == false && angry2 == false || reacted2 == true && angry2 == false) {
                 document.getElementById('react2').style.display = 'block';
                 document.getElementById('reacted2').style.display = 'none';
                 document.getElementById('reactH2').style.display = 'block';
